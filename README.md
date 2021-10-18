@@ -14,7 +14,7 @@ Relevanz:
 Die Adressierung des Problemraumes mittels unserer Zielsetzung ist in zwei Dimensionen relevant. Im Vordergrund steht die Relevanz innerhalb der Gesellschaft, denn es dient dem Zweck, Menschen mit gleichen Interessen zu verbinden. Zudem weist die Adressierung eine wissenschaftliche Relevanz auf. Sie zeigt die Unterscheide zwischen dem sozialen Verhalten von Menschen mit und ohne Kontakt-knüpfender Software.
 
 
-Projektplan/ Artefakte Audit 1
+**Projektplan/ Artefakte Audit 1**
 1. Domänenmodell verfeinern 
 2. Erfordernisse/Anforderungen
 3. Stakeholderanalyse 
