@@ -25,3 +25,4 @@ Die Adressierung des Problemraumes mittels unserer Zielsetzung ist in zwei Dimen
 5. Erster Proof of Concept
 6. Zielhierarchie 
 7. Marktanalyse
+8. Rechtslage
