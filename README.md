@@ -22,8 +22,8 @@ Die Adressierung des Problemraumes mittels unserer Zielsetzung ist in zwei Dimen
 2. Erfordernisse/Anforderungen
 3. Stakeholderanalyse 
 4. Ursache- Wirkungsdiagramm
-5. erste Risiken
-6. Erster Proof of Concept
-7. Zielhierarchie 
-8. Marktanalyse
+5. Alleinstellungsmerkmale/Marktanalyse
+6. Erste Risiken
+7. Erster Proof of Concept
+8. Zielhierarchie 
 
