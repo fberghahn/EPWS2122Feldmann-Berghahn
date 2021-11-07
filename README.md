@@ -21,9 +21,9 @@ Die Adressierung des Problemraumes mittels unserer Zielsetzung ist in zwei Dimen
 1. Domänenmodell verfeinern 
 2. Erfordernisse/Anforderungen
 3. Stakeholderanalyse 
-4. Ursache- Wirkungsdiagramm
-5. Alleinstellungsmerkmale/Marktanalyse
-6. Erste Risiken
+4. Alleinstellungsmerkmale/Marktanalyse
+5. Erste Risiken
+6. Ursache- Wirkungsdiagramm
 7. Erster Proof of Concept
 8. Zielhierarchie 
 
