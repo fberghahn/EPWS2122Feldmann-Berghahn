@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/databaseFragment">
+
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.example.MatchingActivities.MapsFragment"
+        android:label="@string/event_list_fragment_label">
+        <argument
+            android:name="lat"
+            app:argType="string" />
+        <argument
+            android:name="lng"
+            app:argType="string" />
+        <argument
+            android:name="title"
+            app:argType="string" />
+        <argument
+            android:name="cacheid"
+            app:argType="string"
+            android:defaultValue="null" />
+        <argument
+            android:name="creatorid"
+            app:argType="string" />
+        <argument
+            android:name="imageString"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_mapsFragment_to_databaseFragment"
+            app:destination="@id/databaseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addCacheFragment"
+        android:name="com.example.MatchingActivities.AddEventFragment"
+        android:label="@string/new_event"
+        tools:layout="@layout/add_event_fragment">
+        <action
+            android:id="@+id/action_addCacheFragment_to_databaseFragment"
+            app:destination="@id/databaseFragment" />
+        <action
+            android:id="@+id/action_addCacheFragment_to_databaseFragment2"
+            app:destination="@id/databaseFragment"
+            app:launchSingleTop="false"
+            app:popUpToInclusive="false">
+            <argument
+                android:name="text_is_ready"
+                android:defaultValue="false" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/databaseFragment"
+        android:name="com.example.MatchingActivities.DatabaseFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/database_fragment">
+        <action
+            android:id="@+id/action_databaseFragment_to_addCacheFragment"
+            app:destination="@id/addCacheFragment" />
+        <action
+            android:id="@+id/action_databaseFragment_to_mapsFragment"
+            app:destination="@id/mapsFragment" />
+        <action
+            android:id="@+id/action_databaseFragment_to_commentFragment"
+            app:destination="@id/commentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/commentFragment"
+        android:name="com.example.MatchingActivities.CommentFragment"
+        android:label="@string/event_list_fragment_label">
+        <argument
+            android:name="eventid"
+            app:argType="string"
+            android:defaultValue="-1" />
+        <argument
+            android:name="title"
+            android:defaultValue="null"
+            app:argType="string" />
+    </fragment>
+</navigation>

@@ -1,4 +1,20 @@
 <resources>
     <string name="app_name">MatchingActivities</string>
+    <string name="event_list_fragment_label">Veranstaltung: {title}</string>
+    <string name="new_event">Neue Veranstaltung erstellen</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="hint_name">Name...</string>
+    <string name="hint_kategorie">Veranstaltungsart</string>
+    <string name="hint_koordinaten">Meinen Standort verwenden</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Eventname leer.</string>
+    <string name="locationError">Location Error</string>
+    <string name="needGpsHint">Gps wird zum Erstellen benötigt</string>
+    <string name="add_word">Add word</string>
+    <string name="anzeigen">Anzeigen</string>
+    <string name="kommentar">Kommentar</string>
+    <string name="kommentar_posten">Kommentar Posten</string>
+    <string name="standardbild">Standardbild</string>
+    <string name="loginTitle">Matching Activities</string>
+
 </resources>

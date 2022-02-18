@@ -1,4 +1,4 @@
-package com.example.gmcaching
+package com.example.MatchingActivities
 
 import org.junit.Test
 

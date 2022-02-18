@@ -1,8 +1,17 @@
-# Matching Activitites
+# EPWS2122Feldmann-Berghahn
 
-Zur Zeit ist der Code nicht einfach kopierbar und so ausfürbar, da ein google api-key für den Maps Zugriff benötigt wird. Der API Key darf nicht im github gespeichert sein, deshalb muss er in den local properties gespeichert werden. Im Audit können wir unseren Code aber local vorstellen. 
+Expose Florian Berghahn, Maximilian Feldmann 
 
-Guide zur Verwendung des API-Keys:
-https://developers.google.com/maps/documentation/android-sdk/get-api-key
+Projektidee: Matching Activities 
 
-Man muss jedoch sein eigenes Google cloud Projekt erstellen, sonst gibt es Authentifizierung probleme
+Problemraum:
+
+Der Problemraum ist die Schwierigkeit Leute kennenzulernen und die Organisation von Hobbys oder Veranstaltungen für die man mehr Personen braucht als zugesagt haben oder zur Verfügung stehen. Hier sollen zwei Aspekte des sozialen Umgangs miteinander verbunden werden. Einerseits können durch sehr spezifische Hobbys oder Sportarten Leute soziale Kontakte knüpfen und andererseits können diese gar nicht erst ausgeübt werden ohne das man zusätzliche Leute findet die daran teilnehmen.  
+
+Zielsetzung:
+
+Unsere Anwendung soll Menschen zusammen bringen die gleiche Hobbys und Interessen teilen. Dabei soll sie sich von anderen Systemen absetzten, indem man sich auf eine Veranstaltung oder einen besonderen Termin fokussiert. Man soll unkompliziert an Veranstaltungen teilnehmen können die in Reichweite liegen und mit den eingegebenen Interessen übereinstimmen. Dafür sollen Nutzer angeben für welche Aktivitäten sie sich interessieren und wenn dann eine Veranstaltung in der Nähe erstellt wird, werden Nutzer mit Übereinstimmung benachrichtigt, so dass sie annehmen oder ablehnen können.  
+
+Relevanz:
+
+Die Adressierung des Problemraumes mittels unserer Zielsetzung ist in zwei Dimensionen relevant. Im Vordergrund steht die Relevanz innerhalb der Gesellschaft, denn es dient dem Zweck, Menschen mit gleichen Interessen zu verbinden. Zudem weist die Adressierung eine wissenschaftliche Relevanz auf. Sie zeigt die Unterscheide zwischen dem sozialen Verhalten von Menschen mit und ohne Kontakt-knüpfender Software.
